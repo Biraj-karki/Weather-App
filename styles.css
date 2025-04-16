@@ -1,0 +1,80 @@
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 80vh;
+    margin: 0;
+    background: black;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg?w=900&t=st=1704302063~exp=1704302663~hmac=4d2baaff8ee75493e42f1dbced8e15b3d3249a7f713ecb0a4691cd43094619f7);
+}
+.card {
+    align-items: center;
+    justify-content: center;
+    background:black;
+    color: rgb(252, 250, 250);
+    padding: 1.5cm;
+    border-radius: 40px;
+    width: 90%;
+    max-width: 400px;
+    margin: 1cm;
+}
+.date{
+    color: white; 
+    font-size: 20px; 
+    margin: 10px 0;
+}
+
+    input.search-bar {
+        margin: 0.1cm;
+        padding: 0.3cm 0.6cm; 
+        border-radius: 25px;
+        background: linear-gradient(to right, #f5f5f5, #e6e6e6); 
+        border: 1px solid #d1d1d1;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        font-size:16px;
+        font-family: Arial, sans-serif;
+        transition: all 0.3s ease;
+      }
+      
+      input.search-bar:hover {
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Hover effect for shadow */
+        background: linear-gradient(to right, #e6e6e6, #f5f5f5); /* Slight change in gradient on hover */
+      }
+      
+      button {
+        margin: 0.1cm;
+        border-radius: 50%;
+        border: none;
+        height: 36px;
+        width: 36px;
+        background-color: #474a47; 
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+      
+      button:hover {
+        background-color: #45a049; 
+      }
+      .cards{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+      }
+
+      .days{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+        width: 250px;
+        margin-top: 10px;
+        border-radius: 7px;
+        border: 2px solid black;
+        color: rgb(226, 21, 21);
+        padding-top: 10px;
+      }
+      
